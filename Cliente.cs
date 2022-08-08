@@ -23,6 +23,40 @@ namespace bancoLow
        }
        public string Cpf;
        
+    //novo cadastro de CPF
+
+
+    private String newCpf;
+    public String NewCpf
+    {
+        get { return newCpf; }
+        set { newCpf = value; }
+    }
+    
+
+    public int din;
+    public int Din
+    {
+        get { return din; }
+        set { din = value; }
+    }
+    
+
+
+
+       private String usuario;
+        public String Usuario
+        {
+            get { return usuario; }
+            set { usuario = value; }
+        }
+        
+        private string senha;
+        public string Senha
+        {
+            get { return senha; }
+            set { senha = value; }
+        }
        //fazer no BD junto com o banco LOW cadastrando usuarios!!
        
         
